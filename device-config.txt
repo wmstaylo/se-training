@@ -1,0 +1,57 @@
+!Command: show running-config
+!Time: Wed Jun  1 09:48:54 2016
+
+version 7.0(3)I2(2)
+vdc switch id 1
+  limit-resource vlan minimum 16 maximum 4094
+  limit-resource vrf minimum 2 maximum 4096
+  limit-resource port-channel minimum 0 maximum 511
+  limit-resource u4route-mem minimum 248 maximum 248
+  limit-resource u6route-mem minimum 96 maximum 96
+  limit-resource m4route-mem minimum 58 maximum 58
+  limit-resource m6route-mem minimum 8 maximum 8
+feature nxapi
+
+username admin password 5 $5$giRv3psg$hqHdfBm5zUAR5iCHDe39muOYHpm7x5IIymv4.03nR1
+A  role network-admin
+ip domain-lookup
+ip name-server 192.168.51.2 use-vrf management
+snmp-server user admin network-admin auth md5 0x349bfb90e0f1ad0b7be7eb4e43f7e2cf
+ priv 0x349bfb90e0f1ad0b7be7eb4e43f7e2cf localizedkey
+rmon event 1 log trap public description FATAL(1) owner PMON@FATAL
+rmon event 2 log trap public description CRITICAL(2) owner PMON@CRITICAL
+rmon event 3 log trap public description ERROR(3) owner PMON@ERROR
+rmon event 4 log trap public description WARNING(4) owner PMON@WARNING
+rmon event 5 log trap public description INFORMATION(5) owner PMON@INFO
+
+vlan 1
+
+vrf context management
+  ip route 0.0.0.0/0 192.168.51.2
+
+interface Ethernet1/1
+
+interface Ethernet1/2
+
+interface Ethernet1/3
+
+interface Ethernet1/4
+
+interface Ethernet1/5
+
+interface Ethernet1/6
+
+interface Ethernet1/7
+
+interface Ethernet1/8
+
+interface Ethernet1/9
+
+interface mgmt0
+  ip address dhcp
+  vrf member management
+line console
+line vty
+boot nxos bootflash:/nxos.7.0.3.I2.2.bin 
+
+
