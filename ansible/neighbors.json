@@ -1,0 +1,1479 @@
+
+[
+    {
+        "local_interface": "mgmt0", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "mgmt0", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "mgmt0", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "mgmt0", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "mgmt0", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "mgmt0", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "mgmt0", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "mgmt0", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "mgmt0", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "mgmt0", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "mgmt0", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "mgmt0", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "mgmt0", 
+        "neighbor": "svl-csl-eng-mgmt-gw2(SSI18210A4H)", 
+        "neighbor_interface": "Ethernet132/1/24", 
+        "platform": "N5K-C5548P"
+    }, 
+    {
+        "local_interface": "mgmt0", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "mgmt0", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "mgmt0", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "mgmt0", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "mgmt0", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "mgmt0", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/1", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/2", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/3", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/4", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-5(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-9(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-10(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-2(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-3(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-6(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-7(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-4(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/4", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-8(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/5", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/3", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/2", 
+        "platform": "N9K-NXOSV"
+    }, 
+    {
+        "local_interface": "Ethernet1/5", 
+        "neighbor": "n9k-1(Nexus-Switch)", 
+        "neighbor_interface": "Ethernet1/1", 
+        "platform": "N9K-NXOSV"
+    }
+]

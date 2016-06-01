@@ -1,0 +1,15 @@
+{
+    "bdEntity":{
+        "attributes":{
+        },
+        "children" : [{
+            "l2BD":{
+                "attributes":{
+                    "id":"300",
+                    "fabEncap":"vlan-300",
+                    "name":"se-vlan"
+                }
+            }
+        }]
+    }
+}

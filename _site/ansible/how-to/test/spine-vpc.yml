@@ -1,0 +1,134 @@
+---
+
+- name: spine vpc configuration
+  hosts: spine
+  connection: local
+  gather_facts: no
+
+
+  tasks:
+
+    #############################################################
+    # DEFAULT (CLEAN) ALL INTERFACES IN SCOPE FOR THIS DEPLOYMENT
+    #############################################################
+    - name: default all ports in scope
+      nxos_interface: interface= state=default host=
+      with_items:
+        - Ethernet1/1
+        - Ethernet1/2
+        - Ethernet2/1
+        - Ethernet2/12
+
+    - name: ensure no logical interfaces exist
+      nxos_interface: interface= state=absent host=
+      with_items:
+        - loopback
+        - svi
+        - portchannel
+
+    ############################################################
+    #  VLAN CONFIGURATION
+    ############################################################
+    - name: ensure VLANs exist on switches
+      nxos_vlan: vlan_id="2-20,99" state=present host=
+
+    - name: ensure names exist for important vlans
+      nxos_vlan: vlan_id= name= host= state=present
+      with_items:
+        - { vlan_id: 10, name: test_segment }
+        - { vlan_id: 20, name: peer_keepalive }
+        - { vlan_id: 99, name: native }
+
+
+    #############################################################
+    # Layer 2 switchport configs
+    #############################################################
+    - name: L2 config for all ports except peer keepalive
+      nxos_switchport: interface= mode=trunk native_vlan=99 trunk_vlans=2-20 host=
+      with_items:
+        - Ethernet1/1
+        - Ethernet1/2
+        - Ethernet2/1
+
+    - name: L2 config for peer keepalive link
+      nxos_switchport: interface= mode=trunk native_vlan=99 trunk_vlans=20 host=
+      with_items:
+        - Ethernet2/12
+
+
+
+    #############################################################
+    # Portchannels
+    #############################################################
+
+
+    - nxos_portchannel:
+        group: 10
+        members: ['Ethernet1/1','Ethernet1/2']
+        mode: active
+        host: ""
+        state: present
+
+    - nxos_portchannel:
+        group: 11
+        members: ['Ethernet2/1']
+        mode: active
+        host: ""
+        state: present
+
+    - nxos_portchannel:
+        group: 12
+        members: ['Ethernet2/12']
+        mode: active
+        host: ""
+        state: present
+
+
+    #############################################################
+    # Layer 3 Configuration
+    #############################################################
+
+    - name: create logical vlan interfaces
+      nxos_interface: interface= host=
+      with_items:
+        - vlan10
+        - vlan20
+
+    - name: ensure VRF for peer keepalive is created
+      nxos_vrf: vrf=keepalive host=
+
+    - name: assgn VRF to peer keepalive link interfaces
+      nxos_vrf_interface: interface=vlan20 vrf=keepalive host=
+
+    - name: assign IP addresses
+      nxos_ipv4_interface: interface= ip_addr= mask= host=
+      with_items: layer3ip
+
+    - name: config HSRP
+      nxos_hsrp: group= interface= vip= priority= host=
+      with_items: hsrp
+
+    #############################################################
+    # Global VPC Configuration
+    #############################################################
+
+    - name: global vpc configuration params
+      nxos_vpc:
+        domain=
+        system_priority=
+        role_priority=
+        pkl_src=
+        pkl_dest=
+        pkl_vrf=
+        host=
+      with_dict: vpc
+
+    #############################################################
+    # Portchannel VPC Configuration
+    #############################################################
+
+    - name: portchannel vpc peer link configuration
+      nxos_vpc_interface:  portchannel=10 peer_link=true host=
+
+    - name: portchannel vpc  configuration
+      nxos_vpc_interface:  portchannel=11 vpc=11 host=

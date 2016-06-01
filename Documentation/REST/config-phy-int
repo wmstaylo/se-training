@@ -1,0 +1,8 @@
+{"l1PhysIf":{
+    "attributes":{
+        "descr":"Configured by REST Client",
+        "layer":"Layer2",
+        "accessVlan":"vlan-300",
+        "adminSt":"down"
+    }
+}}

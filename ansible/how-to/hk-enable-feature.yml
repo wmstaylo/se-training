@@ -1,0 +1,10 @@
+---
+
+- name: enable ospf
+  hosts: leaf202
+  connection: local
+  gather_facts: no
+
+
+  tasks:
+      - nxos_feature: feature=pim state=enabled host={{ inventory_hostname }}

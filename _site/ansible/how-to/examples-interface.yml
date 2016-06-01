@@ -1,0 +1,31 @@
+---
+
+- name: interface testing
+  hosts: n9k1
+  connection: local
+  gather_facts: no
+
+
+  tasks:
+
+    # Ensure an interface is a Layer 3 port and that it has the proper description
+    - nxos_interface: interface=Ethernet1/1 description='Configured by Ansible' mode=layer3 host=
+
+    # Admin down an interface
+    - nxos_interface: interface=Ethernet2/1 host= admin_state=down
+
+    # Remove all loopback interfaces
+    - nxos_interface: interface=loopback state=absent host=
+
+    # Remove all logical interfaces
+    - nxos_interface: interface= state=absent host=
+      with_items:
+        - loopback
+        - portchannel
+        - svi
+
+    # Admin up all ethernet interfaces
+    - nxos_interface: interface=ethernet host= admin_state=up
+
+    # Admin down ALL interfaces (physical and logical)
+    - nxos_interface: interface=all host= admin_state=down
