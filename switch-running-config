@@ -1,6 +1,6 @@
 
 !Command: show running-config
-!Time: Wed Jun  1 10:03:06 2016
+!Time: Wed Jun  1 10:10:39 2016
 
 version 7.0(3)I2(2)
 vdc switch id 1
@@ -33,6 +33,8 @@ interface Ethernet1/1
   switchport trunk allowed vlan 1-4
 
 interface Ethernet1/2
+  switchport mode trunk
+  switchport trunk allowed vlan 1-5
 
 interface Ethernet1/3
 
